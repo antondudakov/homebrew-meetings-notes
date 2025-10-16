@@ -1,6 +1,6 @@
-# Antondudakov Meetings-notes
+# Meetings-notes
 
-## How do I install these formulae?
+## How do I install it?
 
 **Option 1 (Recommended)**
 ```
