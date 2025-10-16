@@ -2,7 +2,7 @@
 
 ## How do I install these formulae?
 
-`brew install antondudakov/meetings-notes/<formula>`
+`brew install antondudakov/meetings-notes/meetings-notes/`
 
 Or `brew tap antondudakov/meetings-notes` and then `brew install <formula>`.
 
@@ -10,7 +10,7 @@ Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "antondudakov/meetings-notes"
-brew "<formula>"
+brew "meetings-notes"
 ```
 
 ## Documentation
