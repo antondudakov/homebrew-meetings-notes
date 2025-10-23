@@ -1,4 +1,4 @@
-# Privacy Policy for Meetins Notes
+# Privacy Policy for Meetings Notes
 
 **Effective Date:** October 13, 2025
 **Last Updated:** October 13, 2025
@@ -7,7 +7,7 @@
 
 ## Our Privacy Commitment
 
-**Meetins Notes is designed with your privacy as the top priority.** We believe your meeting transcripts, recordings, and personal data should remain private and secure. That's why we built Meetins Notes to process everything locally on your Mac - no cloud uploads, no third-party servers, no data collection.
+**Meetings Notes is designed with your privacy as the top priority.** We believe your meeting transcripts, recordings, and personal data should remain private and secure. That's why we built Meetings Notes to process everything locally on your Mac - no cloud uploads, no third-party servers, no data collection.
 
 ---
 
@@ -19,13 +19,13 @@
 - **All summarization happens on your Mac** using llama.cpp (Meta's Llama models)
 - **All data stays on your device** in your local file system at:
   ```
-  ~/Library/Application Support/Meetins Notes/
+  ~/Library/Application Support/Meetings Notes/
   ```
 - **No internet connection required** for core functionality (transcription and summarization)
 
 ### 2. Sandboxed Environment
 
-- Meetins Notes runs in **macOS App Sandbox**, a security feature that restricts what the app can access
+- Meetings Notes runs in **macOS App Sandbox**, a security feature that restricts what the app can access
 - The app can only access:
   - Files you explicitly select (via file picker)
   - Your microphone (with permission)
@@ -34,7 +34,7 @@
 
 ### 3. Required Permissions
 
-Meetins Notes requests only the permissions necessary for its core functionality:
+Meetings Notes requests only the permissions necessary for its core functionality:
 
 | Permission | Purpose | When Requested |
 |------------|---------|----------------|
@@ -73,7 +73,7 @@ Meetins Notes requests only the permissions necessary for its core functionality
 
 ### ❌ No Cookies or Tracking
 
-- Meetins Notes is a native macOS app - there are **no cookies**
+- Meetings Notes is a native macOS app - there are **no cookies**
 - There is **no web-based tracking**
 - There are **no tracking pixels or beacons**
 
@@ -93,7 +93,7 @@ Meetins Notes requests only the permissions necessary for its core functionality
 All data is stored in your macOS user directory:
 
 ```
-~/Library/Application Support/Meetins Notes/
+~/Library/Application Support/Meetings Notes/
 ├── Meetings/              # Your transcripts and summaries (.json files)
 ├── Models/
 │   ├── ggml/             # Whisper transcription models (.bin files)
@@ -119,18 +119,18 @@ Each meeting is saved as a JSON file containing:
 
 ### Security-Scoped Bookmarks
 
-When you select custom model files, macOS creates **security-scoped bookmarks** that allow Meetins Notes to access those files in future sessions. These bookmarks are:
+When you select custom model files, macOS creates **security-scoped bookmarks** that allow Meetings Notes to access those files in future sessions. These bookmarks are:
 - Stored in macOS system keychain (encrypted)
-- Only accessible by Meetins Notes
+- Only accessible by Meetings Notes
 - Revoked when you delete the app or the model file
 
 ---
 
 ## Network Activity
 
-### When Meetins Notes Connects to the Internet
+### When Meetings Notes Connects to the Internet
 
-Meetins Notes **only** uses the internet in these specific scenarios:
+Meetings Notes **only** uses the internet in these specific scenarios:
 
 1. **Model Downloads (Optional, User-Initiated)**
    - When you click "Download" on a model in Settings
@@ -162,7 +162,7 @@ You can verify this using macOS network monitoring tools like:
 
 ### Open-Source Components
 
-Meetins Notes incorporates the following open-source software:
+Meetings Notes incorporates the following open-source software:
 
 | Component | License | Purpose | Privacy Impact |
 |-----------|---------|---------|----------------|
@@ -175,7 +175,7 @@ All of these libraries run **100% locally** on your Mac with no external communi
 
 ### AI Models
 
-The AI models used by Meetins Notes are:
+The AI models used by Meetings Notes are:
 
 1. **Whisper Models** (OpenAI)
    - Source: https://huggingface.co/ggerganov/whisper.cpp
@@ -215,7 +215,7 @@ Currently: Manually copy files from the directory above.
 ### How to Delete Your Data
 
 **To delete all app data:**
-1. Quit Meetins Notes
+1. Quit Meetings Notes
 2. Delete the folder:
    ```bash
    rm -rf ~/Library/Application\ Support/Meetins\ Notes/
@@ -223,7 +223,7 @@ Currently: Manually copy files from the directory above.
 3. (Optional) Revoke permissions in System Settings → Privacy & Security
 
 **To delete the app:**
-1. Drag Meetins Notes.app to Trash
+1. Drag Meetings Notes.app to Trash
 2. Delete the data folder (above)
 3. Permissions are automatically revoked
 
@@ -231,7 +231,7 @@ Currently: Manually copy files from the directory above.
 
 ## Children's Privacy
 
-Meetins Notes does not knowingly collect any information from children under 13 years of age. Because all processing is local and we collect no data, there is no data to associate with any user, including children.
+Meetings Notes does not knowingly collect any information from children under 13 years of age. Because all processing is local and we collect no data, there is no data to associate with any user, including children.
 
 If you are a parent or guardian and believe your child has used the app, rest assured that no data has been transmitted or collected.
 
@@ -280,11 +280,11 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 
 ## App Store Privacy Labels
 
-When Meetins Notes is available on the Mac App Store, it will display the following privacy labels:
+When Meetings Notes is available on the Mac App Store, it will display the following privacy labels:
 
 ### Data Not Collected
 
-The following data is **NOT collected** by Meetins Notes:
+The following data is **NOT collected** by Meetings Notes:
 - ✅ Contact Information (email, name, etc.)
 - ✅ Health & Fitness
 - ✅ Financial Information
@@ -302,7 +302,7 @@ The following data is **NOT collected** by Meetins Notes:
 
 ### Data Used to Track You
 
-**None.** Meetins Notes does not track you across apps or websites.
+**None.** Meetings Notes does not track you across apps or websites.
 
 ---
 
@@ -321,7 +321,7 @@ If you have any questions about this Privacy Policy, please contact us:
 
 For users in the European Economic Area (EEA), we rely on the following legal basis for processing personal data:
 
-**We do not process personal data.** Meetins Notes operates entirely locally on your device. Under GDPR definitions, data that never leaves your device and is not transmitted to any controller is not subject to GDPR obligations for the app developer.
+**We do not process personal data.** Meetings Notes operates entirely locally on your device. Under GDPR definitions, data that never leaves your device and is not transmitted to any controller is not subject to GDPR obligations for the app developer.
 
 However, if you choose to use third-party APIs (optional Pro feature, coming soon), those providers will process your data according to their own privacy policies and GDPR obligations.
 
@@ -333,7 +333,7 @@ For California residents:
 
 Under the California Consumer Privacy Act (CCPA), you have certain rights regarding your personal information. However:
 
-**We do not collect personal information.** Because Meetins Notes processes all data locally on your device and does not transmit any data to us, there is no personal information for us to collect, sell, or share.
+**We do not collect personal information.** Because Meetings Notes processes all data locally on your device and does not transmit any data to us, there is no personal information for us to collect, sell, or share.
 
 If we introduce cloud features in the future, we will update this policy with CCPA-specific rights and procedures.
 
@@ -374,7 +374,7 @@ If you discover a security issue, please report it to [security email] before pu
 6. ✅ Works completely offline (after downloading models)
 7. ✅ You can delete everything by deleting a folder
 
-**Bottom line:** If you're looking for a truly private meeting transcription app, Meetins Notes is designed for you.
+**Bottom line:** If you're looking for a truly private meeting transcription app, Meetings Notes is designed for you.
 
 ---
 

@@ -1,8 +1,8 @@
-# Meetins Notes - Quick Start Guide
+# Meetings Notes - Quick Start Guide
 
 **Version 0.5.0**
 
-Meetins Notes is a local-first meeting transcription and summarization app for macOS. All processing happens on your Mac—no internet required, no data sent anywhere.
+Meetings Notes is a local-first meeting transcription and summarization app for macOS. All processing happens on your Mac—no internet required, no data sent anywhere.
 
 ---
 
@@ -140,7 +140,7 @@ Meetins Notes is a local-first meeting transcription and summarization app for m
 | ⌘R | Start/Stop Recording |
 | ⌘, | Open Settings |
 | ⌘? | Open Help |
-| ⌘⌥A | About Meetins Notes |
+| ⌘⌥A | About Meetings Notes |
 
 ---
 
@@ -291,7 +291,7 @@ Tasks, follow-ups, or next steps. Who needs to do what?
 
 ### In-App Support
 
-- **Help Menu** → "Meetins Notes Help" - Opens this guide
+- **Help Menu** → "Meetings Notes Help" - Opens this guide
 - **Help Menu** → "Report an Issue" - Visit website for support
 - **Help Menu** → "Privacy Policy" - View privacy details
 - **Help Menu** → "Acknowledgments" - Open-source credits
@@ -316,7 +316,7 @@ When reporting issues, please include:
 
 ## Credits
 
-Meetins Notes is built with these amazing open-source projects:
+Meetings Notes is built with these amazing open-source projects:
 
 - **whisper.cpp** - Fast speech recognition (Georgi Gerganov)
 - **llama.cpp** - Local LLM inference (Georgi Gerganov)
